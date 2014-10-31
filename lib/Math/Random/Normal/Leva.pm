@@ -23,7 +23,7 @@ This document describes Math::Random::Normal::Leva version 0.01
 
 =head1 DESCRIPTION
 
-Generates normally disctributed pseudorandom numbers using algorithm described
+Generates normally distributed pseudorandom numbers using algorithm described
 in the paper "A Fast Normal Random Number Generator", Joseph L. Leva, 1992
 (L<http://saluc.engr.uconn.edu/refs/crypto/rng/leva92afast.pdf>)
 
