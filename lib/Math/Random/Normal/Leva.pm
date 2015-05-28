@@ -35,6 +35,12 @@ in the paper "A Fast Normal Random Number Generator", Joseph L. Leva, 1992
 
 Returns a random number sampled from the normal distribution.
 
+=over 4
+
+=item I<$rand>
+
+is the value of the stock initially
+
 =cut
 
 # This algorithm comes from the paper
@@ -85,6 +91,10 @@ is the annualized drift rate
 =item I<$q>
 
 is the annualized dividend rate
+
+=item I<$rand>
+
+custom rand generated if not passed will use Math::Random::Secure::rand
 
 =back
 
