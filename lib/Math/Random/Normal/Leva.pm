@@ -47,7 +47,7 @@ is the value of the stock initially
 # "A Fast Normal Random Number Generator" (Leva, 1992)
 
 sub random_normal {
-    my $rand = shift || Math::Random::Secure::rand;
+    my $rand = shift || \&rand;
     my ( $s, $t ) = ( 0.449871, -0.386595 );    # Center point
     my ( $a, $b ) = ( 0.19600,  0.25472 );
 
