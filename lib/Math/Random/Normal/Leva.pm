@@ -1,7 +1,7 @@
 package Math::Random::Normal::Leva;
 use strict;
 use warnings;
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 $VERSION = eval $VERSION;
 require Exporter;
 our @ISA       = qw(Exporter);
