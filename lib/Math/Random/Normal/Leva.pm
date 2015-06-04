@@ -31,7 +31,7 @@ in the paper "A Fast Normal Random Number Generator", Joseph L. Leva, 1992
 
 =cut
 
-=head2 random_normal
+=head2 random_normal($rand)
 
 Returns a random number sampled from the normal distribution.
 
@@ -66,7 +66,7 @@ sub random_normal {
     return $nv;
 }
 
-=head2 gbm_sample($price, $vol, $t, $r, $q)
+=head2 gbm_sample($price, $vol, $t, $r, $q, $rand)
 
 Generates a random sample price of a stock following Geometric Brownian Motion after t years.  
 
