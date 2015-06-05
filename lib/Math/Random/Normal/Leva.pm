@@ -14,7 +14,7 @@ Math::Random::Normal::Leva - generate normally distributed PRN using Leva method
 
 =head1 VERSION
 
-This document describes Math::Random::Normal::Leva version 0.01
+This document describes Math::Random::Normal::Leva version 0.02
 
 =head1 SYNOPSIS
 
