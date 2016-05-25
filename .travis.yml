@@ -1,5 +1,9 @@
 language: perl
 before_install:
+  - git clone git://github.com/travis-perl/helpers ~/travis-perl-helpers
+  - source ~/travis-perl-helpers/init
+  - build-perl
+  - perl -V
   - cpanm -n ExtUtils::MakeMaker
 perl:
   - "5.16"
@@ -7,3 +11,5 @@ perl:
   - "5.12"
   - "5.18"
   - "5.20"
+  - "5.22"
+  - "5.24"
