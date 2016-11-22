@@ -8,6 +8,8 @@ our @ISA       = qw(Exporter);
 our @EXPORT_OK = qw(gbm_sample random_normal);
 use Math::Random::Secure qw(rand);
 
+use Carp qw(confess);
+
 =head1 NAME
 
 Math::Random::Normal::Leva - generate normally distributed PRN using Leva method
