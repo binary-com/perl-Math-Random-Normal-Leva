@@ -2,8 +2,7 @@ package Math::Random::Normal::Leva;
 use strict;
 use warnings;
 
-our $VERSION = "0.02";
-$VERSION = eval $VERSION;
+our $VERSION = "0.03";
 
 use Exporter qw(import export_to_level);
 our @EXPORT_OK = qw(gbm_sample random_normal);
