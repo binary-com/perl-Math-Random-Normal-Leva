@@ -69,6 +69,8 @@ sub random_normal {
     return $nv;
 }
 
+=back
+
 =head2 gbm_sample($price, $vol, $t, $r, $q, $rand)
 
 Generates a random sample price of a stock following Geometric Brownian Motion after t years.  
