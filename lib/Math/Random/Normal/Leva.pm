@@ -73,7 +73,7 @@ sub random_normal {
 
 =head2 gbm_sample($price, $vol, $t, $r, $q, $rand)
 
-Generates a random sample price of a stock following Geometric Brownian Motion after t years.  
+Generates a random sample price of a stock following Geometric Brownian Motion after t years.
 
 =over 4
 
@@ -87,7 +87,7 @@ is the annual volatility of the stock
 
 =item I<$t>
 
-is the time elapsed in years 
+is the time elapsed in years
 
 =item I<$r>
 

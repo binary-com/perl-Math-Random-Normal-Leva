@@ -1,3 +1,7 @@
+{{$NEXT}}
+   switch to dzil
+0.03
+
 0.02 Tue Nov 22 2016 Binary.com <binary@cpan.org>
     - Fixed confess() import
     - Exporter functions are now imported directly, rather than using inheritance

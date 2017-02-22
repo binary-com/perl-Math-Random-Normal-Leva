@@ -14,3 +14,4 @@ pod2htm*.tmp
 MYMETA.*
 nytprof*
 Math-Random-Normal-Leva-*
+.build
