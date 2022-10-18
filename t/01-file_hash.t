@@ -9,7 +9,7 @@ use Module::Path qw/module_path/;
 
 my @files = ({
     file => module_path('Math::Random::Normal::Leva'),
-    hash => 'bf9b8329cab5e883b0e6a2625b2c8fab2c79e309'
+    hash => 'a34528a656b9ecb95cdd2b7adaa4caf95efaa3b7'
 });
 
 foreach my $f (@files) {
