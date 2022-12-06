@@ -52,14 +52,14 @@ is the value of the stock initially
 sub random_normal {
     my $rand = shift || \&rand;
     my ($s, $t) = (0.449871, -0.386595);    # Center point
-    my ($a, $b) = (0.19600,  0.25472);
+    my ($a, $b) = (0.19600,  0.25472);  ## no critic (DollarAB)
 
     my $nv;
     while (not defined $nv) {
         my ($u, $v) = ($rand->(), 1.7156 * ($rand->() - 0.5));
         my $x = $u - $s;
         my $y = abs($v) - $t;
-        my $Q = $x**2 + $y * ($a * $y - $b * $x);
+        my $Q = $x**2 + $y * ($a * $y - $b * $x);  ## no critic (DollarAB)
         if ($Q >= 0.27597) {
             next if ($Q > 0.27846 || $v**2 > -4 * $u**2 * log($u));
         }
